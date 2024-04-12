@@ -1,4 +1,6 @@
-# Development
+# A simple TODO app that use the Dioxus web framework by Rust
+
+## Run in your local
 
 1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 2. Install the tailwind css cli: https://tailwindcss.com/docs/installation
@@ -8,6 +10,12 @@
 npx tailwindcss -i ./input.css -o ./public/tailwind.css --watch
 ```
 
+4. Install the Dioxus cli command
+
+```bash
+cargo install dioxus-cli@0.5.0
+```
+
 Run the following command in the root of the project to start the Dioxus dev server:
 
 ```bash
@@ -15,3 +23,4 @@ dx serve --hot-reload
 ```
 
 - Open the browser to http://localhost:8080
+
